@@ -1,0 +1,29 @@
+{
+  "name": "avella_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "npx tailwindcss -i ./css/input.css -o ./dist/output.css",
+  "watch:css": "npx tailwindcss -i ./css/input.css -o ./dist/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/israa-soudani/Avella_project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/israa-soudani/Avella_project/issues"
+  },
+  "homepage": "https://github.com/israa-soudani/Avella_project#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.24",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.17"
+  },
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.1.18"
+  }
+}
